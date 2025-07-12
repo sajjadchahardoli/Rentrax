@@ -33,7 +33,6 @@ const onTabChange = (newRoute) => {
           <Tab v-for="tab in items" :key="tab.label" :value="tab.route"
             class="!text-sm !p-0 rounded-[6px] !border-none">
             <div class="flex items-center gap-2 px-3 py-2">
-              <!-- <img :src="`/icons/${tab.icon}.svg`" /> -->
               <img :src="`/icons/${tab.icon}${activeTab === tab.route ? '-active' : ''}.svg`" />
               <span>{{ tab.label }}</span>
             </div>
