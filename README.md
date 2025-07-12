@@ -1,14 +1,6 @@
 # rentrax
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+The project is built with Vue 3 and Vite, and all the core logic is implemented in JavaScript.
 
 ## Project Setup
 
@@ -59,5 +51,3 @@ RESTful API for a list of primitive string values.
 - `GET /price-names` – Get all price names
 - `POST /price-names` – Add a new price name
 - `DELETE /price-names/:index` – Delete a price name by index
-
-> ⚠️ These AP
