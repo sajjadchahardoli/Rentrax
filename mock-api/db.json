@@ -1,0 +1,20 @@
+{
+  "taxes": [
+    {
+      "name": "Tax Name 1",
+      "amount": 11,
+      "id": 1
+    },
+    {
+      "name": "Tax Name 2",
+      "amount": 12,
+      "id": 2
+    },
+    {
+      "name": "Tax Name 3",
+      "amount": 13,
+      "id": 3
+    }
+  ],
+  "price-names": ["Price Name 1", "Price Name 2", "Price Name 3"]
+}

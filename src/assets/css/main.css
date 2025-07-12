@@ -1,0 +1,34 @@
+/* @import './base.css'; */
+@import 'tailwindcss';
+@import 'primeicons/primeicons.css';
+
+@theme {
+  --color-black-primary: #141615;
+  --color-white-primary: #e5e7eb;
+  --color-shark: #323335;
+  --color-waterloo: #7b809a;
+  --color-niagara: #3d84e8;
+  --color-rhino: #344767;
+  --color-rose: #c75454;
+  --color-gray-light: #e5e7eb;
+  --color-athenc-gray: #f8f9fa;
+}
+
+.p-dialog-close-button {
+  background-color: #c75454 !important;
+  color: white !important;
+  height: 28px !important;
+  width: 28px !important;
+}
+
+.p-datatable-thead {
+  background-color: #c75454 !important;
+}
+
+table {
+  font-size: 14px !important;
+}
+
+table > thead > tr th {
+  background-color: #e5e7eb !important;
+}
